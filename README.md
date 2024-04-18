@@ -52,7 +52,7 @@ public class Main {
         WhatsappAPI whatsappAPI = new WhatsappAPI();
         System.out.println("+237693538738:");
         String recipient = scanner.nextLine();
-        System.out.println("bonjour je suis Hinata bot un bot développer par la team jace est limule merci de nous avoir choisi");
+        System.out.println("bonjour je suis Hinata bot un bot développer par la team jace et limule merci de nous avoir choisi");
         String message = scanner.nextLine();
         whatsappAPI.sendMessage(recipient, message);
         System.out.println("Message sent successfully!");
